@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 30px; */
+    /* padding-left: 30px; */
+    margin-bottom: 10px;
+  }
+  .row input{
+    flex: 1;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+    font-size: 17px;
+    padding: 12px;
+    background: black;
+    color: white;
+  }
+  button{
+    border: none;
+    outline: none;
+    background: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(58, 36, 7);
+    background: black;
+    color: white;
+    font-size: 15px;
+    padding: 13px;
+    cursor :pointer;
+  }

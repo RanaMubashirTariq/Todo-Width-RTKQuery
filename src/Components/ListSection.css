@@ -1,0 +1,36 @@
+.list-section-div ul{
+  padding-left: 0;
+}
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 8px 8px 8px 10px;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor :pointer;
+    transition: all ease 0.5s;
+    margin: auto ;
+    margin-bottom: 10px;
+    background: rgb(7, 75, 7);
+}
+  ul li:hover{
+    border: 0.5px solid rgb(2, 109, 2);
+    background: rgb(23, 84, 23);
+  }
+
+  ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+  }
+  ul li:hover span{
+    color: white
+  }
